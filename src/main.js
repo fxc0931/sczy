@@ -14,6 +14,10 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 import router from './router'
 
+import Api from './https'
+
+Vue.prototype.$api = Api
+
 Vue.use(ElementUI);
 
 Vue.config.productionTip = false

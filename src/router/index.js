@@ -12,6 +12,7 @@ import Business from '../views/Business/index.vue'
 import Medicine from '../views/Medicine/index.vue'
 import Hospital from '../views/Hospital/index.vue'
 import Agency from '../views/Agency/index.vue'
+import NewsDetails from '../views/News/details.vue'
 
 const router = new Router({
   routes: [
@@ -31,6 +32,10 @@ const router = new Router({
         {
           path: "/news",
           component: News,
+         },
+        {
+          path: "/news/:id",
+          component: NewsDetails,
          },
          {
           path: "/health-nurturing",

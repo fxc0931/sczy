@@ -38,7 +38,7 @@
       <div class="nav-scroller py-1 mb-2">
         <nav class="nav d-flex justify-content-between">
           <router-link to="/news" class="p-2 text-muted">
-            <span :class="routerTitle" >中医咨询</span>
+            <span :class="routerTitle" >中医资讯</span>
           </router-link>
           <router-link to="/health-nurturing" class="p-2 text-muted" >
             <span :class="routerTitle">养生频道</span>
@@ -74,12 +74,10 @@
 
     <footer class="blog-footer">
       <p>
-        Blog template built for
-        <a href="https://getbootstrap.com/">Bootstrap</a> by
-        <a href="https://twitter.com/mdo">@mdo</a>.
+      四川中医平台版权所有
       </p>
       <p>
-        <a href="#">Back to top</a>
+        <a href="#">返回顶部</a>
       </p>
     </footer>
   </div>
