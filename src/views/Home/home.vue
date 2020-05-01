@@ -66,6 +66,7 @@
               v-for="(item, index) in newsData"
               :key="index"
               @click="goDetails(item._id)"
+              style="margin-top: 10px"
             >
               <template v-slot:aside>
                 <b-img :src="item.image_uri" width="64" alt="placeholder"></b-img>

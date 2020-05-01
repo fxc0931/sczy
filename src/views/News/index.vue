@@ -4,7 +4,7 @@
     <el-tabs v-model="activeName" @tab-click="handleClick">
       <el-tab-pane label="中医类新用" name="first">
         <ul class="list-unstyled" v-loading="loading" style="min-height: 500px">
-          <b-media tag="li" v-for="(item, index) in newsData" :key="index" @click="goDetails(item._id)" >
+          <b-media tag="li" v-for="(item, index) in newsData" :key="index" @click="goDetails(item._id)" style="margin-top: 10px">
             <template v-slot:aside>
               <b-img :src="item.image_uri" width="64" alt="placeholder"></b-img>
             </template>
